@@ -11,7 +11,3 @@ def load_file("some_file_name.txt"):
     file_to_read.close()
     return file_list
 
-
-file_test = input("file:")
-lines = load_file(file_test)
-print('OUTPUT', lines)
