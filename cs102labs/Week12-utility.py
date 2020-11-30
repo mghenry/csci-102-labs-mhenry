@@ -33,4 +33,6 @@ def score_finder(player_names, player_scores, name):
             print('player not found')
     print('OUTPUT', name, 'got a score of', player_scores[index])
 
-    
+def union(list1, list2):
+    new_list = list1 + list2
+    return new_list
