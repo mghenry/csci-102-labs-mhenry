@@ -24,7 +24,10 @@ def find_word_count(list_to_parse, string_to_find):
         if list_to_parse[i] == string_to_find:
             count_num += 1
     return count_num
+some_list = ['hello', 'sup', 'hello', 'hi', 'hello']
+str2find = 'hello'
 
+find_word_count(some_list, str2find)
         
     
     
