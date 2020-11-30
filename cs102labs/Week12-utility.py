@@ -18,6 +18,13 @@ def update_string(string1, string2, integer):
     temp_string = temp_string_front + string2 + temp_string_back
     print('OUTPUT', temp_string)
 
+def find_word_count(list_to_parse, string_to_find):
+    count_num = 0
+    for i in list_to_parse:
+        if list_to_parse[i] == string_to_find:
+            count_num += 1
+    return count_num
 
+        
     
     
