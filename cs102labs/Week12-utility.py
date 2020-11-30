@@ -5,8 +5,8 @@
 #   Time: 1 hour
 
 
-def load_file("some_file_name.txt"):
-    file_to_read = open("some_file_name.txt")
+def load_file(some_file_name):
+    file_to_read = open("some_file_name")
     file_list = file_to_read.readlines()
     file_to_read.close()
     return file_list
