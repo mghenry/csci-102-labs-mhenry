@@ -12,11 +12,16 @@ def load_file(some_file_name):
     return file_list
 
 def update_string(string1, string2, integer):
+    integer = int(integer)
     temp_string_front = string1[:integer]
     temp_string_back = string1[integer:]
     temp_string = temp_string_front + string2 + temp_string_back
     print('OUTPUT', temp_string)
 
+str1 = input('1')
+str2 = input('2')
+inte = input('#')
 
+update_string(str1, str2, inte)
     
     
