@@ -18,10 +18,6 @@ def update_string(string1, string2, integer):
     temp_string = temp_string_front + string2 + temp_string_back
     print('OUTPUT', temp_string)
 
-str1 = input('1')
-str2 = input('2')
-inte = input('#')
 
-update_string(str1, str2, inte)
     
     
