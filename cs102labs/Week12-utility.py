@@ -37,6 +37,14 @@ def union(list1, list2):
     new_list = list1 + list2
     return new_list
 
+def intersect(list1, list2):
+    same_elem = []
+    for i in range(len(list1)):
+        for j in range(len(list2)):
+            if list1[i] == list2[j]:
+                same_elem.append(list1[i])
+    return same_elem
+
 def not_in(list1, list2):
     added_list = []
     for i in range(len(list1)):
