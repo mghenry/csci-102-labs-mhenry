@@ -36,3 +36,17 @@ def score_finder(player_names, player_scores, name):
 def union(list1, list2):
     new_list = list1 + list2
     return new_list
+
+def not_in(list1, list2):
+    added_list = []
+    for i in range(len(list1)):
+        for j in range(len(list2)):
+            if list1[i] != list2[j]:
+                added_list.append(list1[i])
+    for i in range(len(list2)):
+        for j in range(len(added_list)):
+            if list2[i] != added_list[j]:
+                added_list.append(list2[i])
+    return added_list
+                
+                
