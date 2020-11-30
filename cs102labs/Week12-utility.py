@@ -20,14 +20,10 @@ def update_string(string1, string2, integer):
 
 def find_word_count(list_to_parse, string_to_find):
     count_num = 0
-    for i in list_to_parse:
-        if list_to_parse[i] == string_to_find:
+    for i in range(len(list_to_parse)):
+        if list_to_parse[i-1] == string_to_find:
             count_num += 1
     return count_num
-some_list = ['hello', 'sup', 'hello', 'hi', 'hello']
-str2find = 'hello'
 
-find_word_count(some_list, str2find)
-        
     
     
