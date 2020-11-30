@@ -1,8 +1,8 @@
 #   Maggie Henry
 #   CSCI 102 – Section G
 #   Week 12 - Utility using Git and Incremental Development
-#   References: none
-#   Time: 1 hour
+#   References: www.geeksforgeeks.org, www.stackoverflow.com, zyBooks
+#   Time: 1.5 hours
 
 
 def load_file(some_file_name):
@@ -56,5 +56,14 @@ def not_in(list1, list2):
             if list2[i] != added_list[j]:
                 added_list.append(list2[i])
     return added_list
+
+def is_prime(number):
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+        else:
+            return True
+        
+            
                 
                 
