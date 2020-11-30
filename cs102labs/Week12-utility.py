@@ -25,5 +25,12 @@ def find_word_count(list_to_parse, string_to_find):
             count_num += 1
     return count_num
 
-    
+def score_finder(player_names, player_scores, name):
+    for i in range(len(player_names)):
+        if player_names[i-1] == name:
+            index = i-1
+        else:
+            print('player not found')
+    print('OUTPUT', name, 'got a score of', player_scores[index])
+
     
